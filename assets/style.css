@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #333;
+}
+
+footer {
+    margin-top: 20px;
+}
+span{
+    color: red;
+}
+.navbar ul li a{
+    color: rgb(31, 9, 105);
+}
+.nav-link{
+font-size: 1rem;
+}
+p{
+    text-align: justify;
+}
+#navMenu .nav-link {
+    color: #000;
+    transition: color 0.3s ease;
+}
+#navMenu .nav-link:hover {
+    color: #fff;
+    background-color: #343a40;
+    border-radius: 5px;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Add a shadow */
+}
+
+.btn {
+    position: relative;
+    background-color: #9f1c6d; /* Base color */
+    color: #f0eded;
+    border: none;
+    /* padding: 10px 20px;
+    font-size: 10px; */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2);
+}
+
+/* Hover Effect */
+.btn:hover {
+    box-shadow: 0 6px 20px rgba(0, 123, 255, 0.5);
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Active Effect (on Click) */
+.btn-glow:active {
+    animation: glow 1s infinite alternate;
+}
+
+/* Keyframes for Glow Effect */
+@keyframes glow {
+    from {
+        box-shadow: 0 6px 20px rgba(0, 123, 255, 0.5);
+    }
+    to {
+        box-shadow: 0 6px 30px rgba(0, 123, 255, 0.8);
+    }
+}
+
+/* Button Styling */
+.btn-glow {
+    position: relative;
+    background-color: #007bff; /* Base color */
+    color: #fff;
+    border: none;
+    /* padding: 10px 20px;
+    font-size: 10px; */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2);
+}
+
+/* Hover Effect */
+.btn-glow:hover {
+    box-shadow: 0 6px 20px rgba(0, 123, 255, 0.5);
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Active Effect (on Click) */
+.btn-glow:active {
+    animation: glow 1s infinite alternate;
+}
+
+/* Keyframes for Glow Effect */
+@keyframes glow {
+    from {
+        box-shadow: 0 6px 20px rgba(0, 123, 255, 0.5);
+    }
+    to {
+        box-shadow: 0 6px 30px rgba(0, 123, 255, 0.8);
+    }
+}
